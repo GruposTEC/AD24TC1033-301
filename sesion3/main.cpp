@@ -19,8 +19,8 @@ int main()
 
     Jugador j1;
     j1.set_nombre("Juanito");
-    j1.set_posicion(5);
-    j1.set_posicion(3);
+    j1.set_posicion(d.tirar());
+    j1.set_posicion(d.tirar());
     cout << j1.toString() << endl;
 
     return 0;

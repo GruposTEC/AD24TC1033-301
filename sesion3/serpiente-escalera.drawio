@@ -1,6 +1,6 @@
 <mxfile host="65bd71144e">
     <diagram id="n9-IBxqb22qTsaQKKA3l" name="Page-1">
-        <mxGraphModel dx="330" dy="198" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+        <mxGraphModel dx="330" dy="1322" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
             <root>
                 <mxCell id="0"/>
                 <mxCell id="1" parent="0"/>
@@ -17,10 +17,10 @@
                     <mxGeometry y="60" width="160" height="26" as="geometry"/>
                 </mxCell>
                 <mxCell id="6" value="Casilla" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" parent="1" vertex="1">
-                    <mxGeometry x="270" y="40" width="160" height="104" as="geometry"/>
+                    <mxGeometry x="280" y="-20" width="220" height="160" as="geometry"/>
                 </mxCell>
-                <mxCell id="7" value="+ posicion :int&#10;- desplazamineto: int" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="6" vertex="1">
-                    <mxGeometry y="26" width="160" height="44" as="geometry"/>
+                <mxCell id="7" value="- ncasilla :int&#10;- desplazamiento: int" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="6" vertex="1">
+                    <mxGeometry y="26" width="220" height="44" as="geometry"/>
                 </mxCell>
                 <mxCell id="24" value="" style="endArrow=diamondThin;endFill=1;endSize=24;html=1;exitX=0.636;exitY=1.218;exitDx=0;exitDy=0;exitPerimeter=0;" parent="6" edge="1">
                     <mxGeometry width="160" relative="1" as="geometry">
@@ -29,10 +29,10 @@
                     </mxGeometry>
                 </mxCell>
                 <mxCell id="8" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" parent="6" vertex="1">
-                    <mxGeometry y="70" width="160" height="8" as="geometry"/>
+                    <mxGeometry y="70" width="220" height="8" as="geometry"/>
                 </mxCell>
-                <mxCell id="9" value="+ get_posicion ( ) : int" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="6" vertex="1">
-                    <mxGeometry y="78" width="160" height="26" as="geometry"/>
+                <mxCell id="9" value="+ get_numcasilla( ) : int&#10;+ set_num_casilla n : int):void&#10;+ get_desplazamiento( ) : int&#10;+ set_desplazamiento( n : int ) : void&#10;+ toString() : string" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="6" vertex="1">
+                    <mxGeometry y="78" width="220" height="82" as="geometry"/>
                 </mxCell>
                 <mxCell id="10" value="Dado" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" parent="1" vertex="1">
                     <mxGeometry x="30" y="350" width="160" height="120" as="geometry"/>
