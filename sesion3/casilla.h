@@ -10,11 +10,12 @@ class Casilla
         int ncasilla;
         int desplazamiento = 0;
     public :
-        int get_numcasilla();
-        void set_numcasilla(int n);
+        Casilla();
+        Casilla(int p, int d);
+        int get_numcasilla();    
         int get_desplazamiento();
-        void set_desplazamiento(int n);
         string toString();
+        int mover();
 
 
 };

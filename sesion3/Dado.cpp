@@ -1,6 +1,8 @@
 #include <cstdlib>
+#include <iostream>
 #include "dado.h"
-
+using std::cout;
+using std::endl;
 
 int Dado::tirar()
 {
@@ -10,4 +12,19 @@ int Dado::tirar()
 void Dado::set_caras(int n)
 {
     num_caras = n;
+}
+
+Dado::Dado(int n)
+{
+    num_caras = n;
+}
+
+Dado::Dado()
+{
+    num_caras = 6;
+}
+
+Dado::~Dado()
+{
+    cout << "Dentro del desttructor de dado" << endl;
 }
